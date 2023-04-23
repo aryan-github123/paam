@@ -28,6 +28,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    max-width: 95%;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 .Inner_Box h1 {
