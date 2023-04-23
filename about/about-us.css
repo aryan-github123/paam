@@ -18,18 +18,18 @@
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, .8);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 10);
-    padding: 20px;
-    text-align: center;
+    padding: 30px;
+    text-align: justify;
     border-radius: 5px;
 }
 
-.Inner_Box img {
-    max-width: 95%;
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
+
 .Inner_Box h1 {
     font-size: 45px;
 }
@@ -39,11 +39,15 @@
     font-size: 18px;
 }
 
-.image a {
+h3 {
+    text-align: center;
+}
+
+.click a {
     color: black;
     text-decoration: none;
 }
 
-.image a:hover {
-    color: red;
+.click a:hover {
+    color: crimson;
 }
