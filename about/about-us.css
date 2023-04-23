@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Box {
+    height: 100vh;
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+
+.Inner_Box {
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 10);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Inner_Box h1 {
+    font-size: 45px;
+}
+
+.Inner_Box p {
+    margin: 10px;
+    font-size: 18px;
+}
