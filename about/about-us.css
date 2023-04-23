@@ -23,6 +23,13 @@
     border-radius: 5px;
 }
 
+.Inner_Box img {
+    max-width: 95%;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 .Inner_Box h1 {
     font-size: 45px;
 }
